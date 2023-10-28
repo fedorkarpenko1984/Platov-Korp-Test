@@ -41,6 +41,10 @@ watch(route, () => {
   message.value = { text: '' }
 })
 
+window.addEventListener('resize', () => {
+  isMenuOpen.value = false
+})
+
 </script>
 
 <style scoped>
